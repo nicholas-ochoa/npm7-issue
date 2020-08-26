@@ -1,0 +1,19 @@
+{
+  "name": "@nicholas-ochoa/npm7-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "Nicholas Ochoa",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "uuid": "^8.3.0",
+    "@nicholas-ochoa/npm7-issue-test-pkg": "^1.0.1"
+  }
+}
